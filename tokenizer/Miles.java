@@ -12,14 +12,15 @@ public class Miles
 
 	public int dataMethod()
 	{
-	    int result = 0;
-	    for (int x=0;x<name.length();x++)
-	    {
-	        result = name.charAt(x) + result;
-	    }
-	    data = result % name.length();
-	    return result;
-	}
+		int result = 0;
+		int x = 0;
+		while (x<name.length())
+		{
+		result = name.charAt(x) + result;
+		x++;
+		}
+		data = result % name.length();
+		return result;	}
 
 
 	@Override
