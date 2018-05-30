@@ -1,4 +1,4 @@
-package parser.states;
+package randomP;
 
 public class Miles
 {
