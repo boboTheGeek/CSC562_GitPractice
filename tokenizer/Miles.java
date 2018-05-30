@@ -12,30 +12,11 @@ public class Miles
 
 	public int dataMethod()
 	{
-	    //
-	    int result = 0;
-	    for (int x=0;x<name.length();x++)
-	    {
-	        result = name.charAt(x) + result;
-	    }
-	    data = result % name.length();
-	    return result;
-	}
-		int result = 0;
-		int x = 0;
-		while (x<name.length())
-		{
-		result = name.charAt(x) + result;
-		x++;
-		}
+		int result = 10;
 		data = result % name.length();
-		return result;	}
-	    //int result = 10;
-	    data = result % name.length();
-	    return result;
+		return result;
+
 	}
-
-
 
 	@Override
 	public String toString()
